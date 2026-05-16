@@ -1,6 +1,21 @@
 # 📡 Mail Server Tester
 
-Aplicação Node.js para testar servidores **SMTP** e **IMAP** com interface web e API REST.
+Aplicação Node.js simples para testar servidores **SMTP** e **IMAP** via interface web e API REST. Ideal para debug, verificação de credenciais e testes rápidos em ambientes de desenvolvimento.
+
+Principais recursos:
+
+- Testes de conexão e autenticação SMTP (envio de e-mail de teste)
+- Testes de conexão IMAP (listagem de pastas/caixas)
+- Endpoints REST para integração com scripts e CI
+- Interface web leve para testes manuais
+
+## Demonstração
+
+Abaixo uma captura de tela da interface web (arquivo em `docs/screen.png`):
+
+![Screenshot da interface de teste](docs/screen.png)
+
+> Observação: se estiver visualizando o README no GitHub/VS Code, o caminho `docs/screen.png` deve mostrar a imagem automaticamente.
 
 ## Instalação
 
